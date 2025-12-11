@@ -62,6 +62,34 @@ Aplikasi ini dirancang untuk kebutuhan internal kampus, dengan fitur berbeda unt
 
 ---
 
+## 🧩 OOP Class Architecture
+
+Project ini menggunakan pendekatan **Object-Oriented Programming (OOP)** untuk memisahkan logic aplikasi dari tampilan dan memastikan setiap fitur memiliki struktur yang jelas, reusable, dan mudah di-maintain.
+
+Berikut rangkuman class utama yang digunakan:
+
+| Class | Deskripsi | Tanggung Jawab Utama |
+|-------|-----------|----------------------|
+| **Database.php** | Wrapper koneksi MySQL | Membuka koneksi, menjalankan query, dan mengelola hasil query. |
+| **User.php** | Representasi akun pengguna | Login, verifikasi role (Admin/Dosen/Mahasiswa), update password. |
+| **Dosen.php** | Entity dosen | CRUD data dosen, upload foto, validasi input. |
+| **Mahasiswa.php** | Entity mahasiswa | CRUD data mahasiswa, upload foto, pagination data. |
+| **Group.php** | Entity grup | Membuat grup, edit informasi, generate kode pendaftaran otomatis, mengambil detail grup. |
+| **GroupMember.php** | Relasi grup–anggota | Menambah/menghapus anggota (dosen/mahasiswa), mengecek status keanggotaan. |
+| **Event.php** | Entity event dalam grup | Membuat, mengedit, menghapus event, serta menampilkan daftar event per grup. |
+| **Thread.php** | Diskusi / topik percakapan | Membuat thread baru, membuka/menutup thread, mengambil daftar thread aktif. |
+| **Chat.php** | Chat berbasis AJAX | Menyimpan pesan, menarik pesan terbaru (polling), memformat data chat. |
+
+### 🔹 Kenapa Menggunakan OOP?
+- **Lebih terstruktur** → setiap fitur punya class mandiri.  
+- **Lebih mudah di-maintain** → perubahan logic tidak memengaruhi UI.  
+- **Reusable** → fungsi-fungsi dapat dipanggil ulang di banyak halaman PHP.  
+- **Memisahkan business logic dari view** → pola yang wajib di backend development profesional.  
+
+Dengan pendekatan OOP ini, aplikasi tidak hanya berjalan, tetapi juga **memiliki fondasi arsitektur yang jelas dan scalable**.
+
+---
+
 ## Project Structure
 
 ### `/src`
