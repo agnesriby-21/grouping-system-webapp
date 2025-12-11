@@ -59,26 +59,26 @@ Aplikasi ini dirancang untuk kebutuhan internal kampus, dengan fitur berbeda unt
 
 ## 📁 Project Structure
 
-
 project-root/
 │
-├── src/ # seluruh kode PHP
-│ ├── ajax/ # handler AJAX
-│ ├── class/ # OOP classes
-│ ├── images/ # foto dosen & mahasiswa
-│ ├── index.php
-│ ├── login.php
-│ ├── *.php # halaman fitur lainnya
-│ └── style.css
+├── src/                       
+│   ├── ajax/
+│   ├── class/
+│   ├── images/
+│   ├── index.php
+│   ├── login.php
+│   ├── *.php
+│   └── style.css
 │
 ├── database/
-│ ├── fullstack.sql # struktur database
-│ └── erd.png # diagram ERD
+│   ├── fullstack.sql
+│   └── erd.png
 │
 ├── docs/
-│ └── screenshots/ # semua screenshot aplikasi
+│   └── screenshots/
 │
 └── README.md
+
 
 
 ---
