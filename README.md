@@ -1,13 +1,13 @@
-# 🧩 Grouping System Web Application (Synaps)
+# Grouping System Web Application
 
 Sebuah full-stack web application berbasis **PHP (OOP)**, **MySQL**, dan **AJAX**, yang digunakan untuk mengelola dosen, mahasiswa, grup, event, dan percakapan berbasis thread.  
 Aplikasi ini dirancang untuk kebutuhan internal kampus, dengan fitur berbeda untuk **Admin**, **Dosen**, dan **Mahasiswa**.
 
 ---
 
-# 🚀 Features
+# Features
 
-## 👑 Admin
+## Admin
 - CRUD Dosen (foto, identitas, pagination)
 - CRUD Mahasiswa (foto, identitas, pagination)
 - Reset / ganti password
@@ -15,7 +15,7 @@ Aplikasi ini dirancang untuk kebutuhan internal kampus, dengan fitur berbeda unt
 
 ---
 
-## 🎓 Dosen
+## Dosen
 - Melihat grup yang dimiliki
 - Membuat grup baru (Publik / Privat)
 - Mengedit informasi grup
@@ -26,7 +26,7 @@ Aplikasi ini dirancang untuk kebutuhan internal kampus, dengan fitur berbeda unt
 
 ---
 
-## 👤 Mahasiswa
+## Mahasiswa
 - Join grup menggunakan kode unik
 - Lihat daftar grup milik sendiri
 - Lihat grup publik lainnya
@@ -36,7 +36,7 @@ Aplikasi ini dirancang untuk kebutuhan internal kampus, dengan fitur berbeda unt
 
 ---
 
-## 💬 AJAX Thread & Chat
+## AJAX Thread & Chat
 - Real-time pull (tanpa refresh halaman)
 - Bubbles pesan berbeda untuk pengirim vs penerima
 - Auto-scroll
@@ -45,7 +45,7 @@ Aplikasi ini dirancang untuk kebutuhan internal kampus, dengan fitur berbeda unt
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 | Layer | Teknologi |
 |-------|-----------|
@@ -57,7 +57,7 @@ Aplikasi ini dirancang untuk kebutuhan internal kampus, dengan fitur berbeda unt
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ### `/src`
 Berisi seluruh kode aplikasi:
@@ -89,7 +89,7 @@ Dokumentasi tambahan:
 
 ---
 
-# 🧱 Database Design  
+# Database Design  
 ERD tersedia di:
 
 
@@ -98,9 +98,9 @@ Relasi utama meliputi:
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
-## ⭐ User Panels
+## User Panels
 
 ### 🔹 Panel Admin
 ![Admin Panel](./docs/screenshots/admin-panel.png)
@@ -113,7 +113,7 @@ Relasi utama meliputi:
 
 ---
 
-## ⭐ Group Management & Details
+## Group Management & Details
 
 ### 🔹 Detail Grup (Dosen)
 ![Group Detail - Lecturer](./docs/screenshots/detailgroup-lecturer.png)
@@ -129,7 +129,7 @@ Relasi utama meliputi:
 
 ---
 
-## ⭐ User Management
+## User Management
 
 ### 🔹 Daftar Dosen
 ![Lecturer List](./docs/screenshots/display-lecturer.png)
@@ -139,7 +139,7 @@ Relasi utama meliputi:
 
 ---
 
-# ▶️ Cara Menjalankan Aplikasi
+# Cara Menjalankan Aplikasi
 
 1. Clone repository  
 2. Pindahkan folder `src/` ke dalam `htdocs` (Jika memakai XAMPP)  
@@ -153,7 +153,7 @@ http://localhost/grouping-system/src/login.php
 
 ---
 
-# 🧑‍💻 Default Accounts
+# Default Accounts
 
 **Admin**
 - Username: `admin`
@@ -164,13 +164,13 @@ http://localhost/grouping-system/src/login.php
 
 ---
 
-# 👤 Author
+# Author
 **Agnesha Riby Tjoanda**  
 Informatics Engineering — Universitas Surabaya  
 
 ---
 
-# 🌐 License
+# License
 Open for learning & educational purposes.
 
 
