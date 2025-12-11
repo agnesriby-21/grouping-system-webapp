@@ -59,26 +59,33 @@ Aplikasi ini dirancang untuk kebutuhan internal kampus, dengan fitur berbeda unt
 
 ## 📁 Project Structure
 
-project-root/
-│
-├── src/
-│   ├── ajax/
-│   ├── class/
-│   ├── images/
-│   ├── index.php
-│   ├── login.php
-│   ├── *.php
-│   └── style.css
-│
-├── database/
-│   ├── fullstack.sql
-│   └── erd.png
-│
-├── docs/
-│   └── screenshots/
-│
-└── README.md
+### `/src`
+Berisi seluruh kode aplikasi:
+- `/ajax` — Handler untuk request AJAX (join group, chat, dll.)
+- `/class` — Seluruh class OOP untuk entity (User, Group, Event, Member, dll.)
+- `/images` — Foto dosen dan mahasiswa
+- `index.php` — Halaman utama berdasarkan role login
+- `login.php` — Halaman login
+- `*.php` — Semua halaman fitur (CRUD, detail grup, event, thread, dsb.)
+- `style.css` — Styling utama aplikasi
 
+---
+
+### `/database`
+Semua file yang berkaitan dengan basis data:
+- `fullstack.sql` — Struktur database + data awal
+- `erd.png` — Diagram ERD relasi tabel
+
+---
+
+### `/docs`
+Dokumentasi tambahan:
+- `/screenshots` — Semua screenshot tampilan aplikasi (admin, dosen, mahasiswa, grup, dsb.)
+
+---
+
+### Root Folder
+- `README.md` — Dokumentasi lengkap proyek
 
 ---
 
