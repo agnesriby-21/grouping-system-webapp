@@ -57,22 +57,26 @@ Aplikasi ini dirancang untuk kebutuhan internal kampus, dengan fitur berbeda unt
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
+
+
 project-root/
 │
 ├── src/ # seluruh kode PHP
-│ ├── ajax/
-│ ├── class/
-│ ├── images/
-│ ├── *.php
+│ ├── ajax/ # handler AJAX
+│ ├── class/ # OOP classes
+│ ├── images/ # foto dosen & mahasiswa
+│ ├── index.php
+│ ├── login.php
+│ ├── *.php # halaman fitur lainnya
 │ └── style.css
 │
 ├── database/
 │ ├── fullstack.sql # struktur database
-│ └── erd.png
+│ └── erd.png # diagram ERD
 │
 ├── docs/
-│ └── screenshots/ # screenshot aplikasi
+│ └── screenshots/ # semua screenshot aplikasi
 │
 └── README.md
 
@@ -112,9 +116,9 @@ Relasi utama meliputi:
 ![Group Detail - Student](./docs/screenshots/detailgroup-student.png)
 
 ### 🔹 Halaman Grup (Mahasiswa)
-![Group Page - Student](./docs/screenshots/displagroup-student.png)
+![Group Page - Student](./docs/screenshots/displaygroup-student.png)
 
-### 🔹 Daftar Grup (Dosen)
+### 🔹 Halaman Grup (Dosen)
 ![Group List - Lecturer](./docs/screenshots/displaygroup-lecturer.png)
 
 ---
