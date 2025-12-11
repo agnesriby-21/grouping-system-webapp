@@ -45,6 +45,11 @@ Aplikasi ini dirancang untuk kebutuhan internal kampus, dengan fitur berbeda unt
 
 ---
 
+## Database ERD
+![ERD](./database/erd.png)
+
+---
+
 # Tech Stack
 
 | Layer | Teknologi |
