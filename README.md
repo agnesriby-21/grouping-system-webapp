@@ -151,7 +151,7 @@ Relasi utama meliputi:
 3. Import file database:
 database/fullstack.sql
 
-4. Atur konfigurasi database pada:
+4. Atur konfigurasi database
 5. Jalankan Apache & MySQL  
 6. Akses aplikasi:
 http://localhost/grouping-system/src/login.php
